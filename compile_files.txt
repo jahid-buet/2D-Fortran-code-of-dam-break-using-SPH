@@ -1,0 +1,19 @@
+1)geometry compilation:ifort main.f90 geometry.f90 var.f90 part.f90 vector.f90
+2)kernal function compilation:main.f90 kernal.f90 part.f90 vector.f90
+3)kgf matrix compilation:ifort main.f90 geometry.f90 var.f90 kernal.f90 kgf_matrix.f90 part.f90 vector.f90
+4)density computation:ifort main.f90 geometry.f90 var.f90 initial.f90 kernal.f90 kgf_matrix.f90 ComDens.f90 part.f90 vector.f90
+5)pressure computation of fluid:ifort -traceback main.f90 geometry.f90 var.f90 initial.f90  kernal.f90 kgf_matrix.f90 ComDens.f90 Compress.f90 ComPressGrad.f90 ComViscosity.f90 ComGravity.f90  Time.f90 part.f90 vector.f90
+6)time integration:
+
+
+compilation folder:
+cd C:\Users\User\Desktop\2D_Dam_Break
+
+
+
+New compilation folder: cd C:\Users\User\Desktop\Dam_break_modification
+
+Newfile compilation:
+ifort/O3 -traceback Dam_break.f90 geometry.f90  var.f90 initial.f90  kernal.f90   ComDens.f90 Compress.f90 ComPressGrad.f90 ComViscosity.f90 strain.f90  ComGravity.f90 KernalGradientCorrection.f90  Time.f90  part.f90 vector.f90
+
+ifx/O3 -traceback  main.f90 geometry.f90  var.f90 initial.f90  kernal.f90 kgf_matrix.f90 ComDens.f90 Compress.f90 ComPressGrad.f90 ComViscosity.f90 ComAcc.f90  ComGravity.f90 NoSlipBc.f90 Xsph.f90  part.f90 vector.f90
