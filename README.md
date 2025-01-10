@@ -43,4 +43,9 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - Dam_break.exe: This is an executable file which is created after compiling all source file in ifort compiler.
 
+## Output files
+before time integration start initial files named coordinate_ini.txt  is created which contains  initial position,density,pressure of all particles in domain.
 
+After finished running  the simulation another  text file named coordinate_final.txt is created which contains the final position ,pressure,density of all particles.
+
+The initial and final text files are created within same folder as Dam_break.exe executable file.
