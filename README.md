@@ -7,9 +7,9 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 ## Definition of source files are summarized as follow:
 
--# ComDense.f90: Compute rate of change of desity of fluid particles using continuity equation and boundary particles from equation of state.
+- ComDense.f90: Compute rate of change of desity of fluid particles using continuity equation and boundary particles from equation of state.
 
--# ComGravity.f90: Compute acceleration due to gravity for all fluid particles in domain.
+- ComGravity.f90: Compute acceleration due to gravity for all fluid particles in domain.
 
 - Compress.f90: Compute pressure between fluid particles by using equation of state and boundary particles by using pressure extrapolated from fluid particles.
 
