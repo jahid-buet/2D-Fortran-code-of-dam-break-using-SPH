@@ -7,9 +7,9 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 ## Definition of source files are summarized as follow:
 
-- ComDense.f90: Compute rate of change of desity of fluid particles using continuity equation and boundary particles from equation of state.
+- #ComDense.f90: Compute rate of change of desity of fluid particles using continuity equation and boundary particles from equation of state.
 
-- ComGravity.f90: Compute acceleration due to gravity for all fluid particles in domain.
+- #ComGravity.f90: Compute acceleration due to gravity for all fluid particles in domain.
 
 - Compress.f90: Compute pressure between fluid particles by using equation of state and boundary particles by using pressure extrapolated from fluid particles.
 
@@ -21,7 +21,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - KernalGradientCorrection.f90: Compute inverse matrix related to formulation of kernal gradient coorection which is used in only in viscosity computation.
 
-- Time.f90:This module computes time step needs for simulation although in this  2d dam break simulation this routine is not used.
+- Time.f90:This module computes time step which is used in time integration  although in this  2d dam break simulation this routine is not used.
 
 - Xsph.f90:This module computes Xsph to regularize the particles movement in SPH.it is not used in this simulation.
 
