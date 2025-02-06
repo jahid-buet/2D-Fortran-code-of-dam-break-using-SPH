@@ -44,13 +44,25 @@ To modify the source code one has to recompile the source files in "Source" fold
 - Dam_break.exe: This is an executable file which is created after compiling all source file in ifort compiler.
 
 ## Output files
+
 - before time integration start initial files named coordinate_ini.txt  is created which contains  initial position,density,pressure of all particles in domain.
 
 - After finished running  the simulation another  text file named coordinate_final.txt is created which contains the final position ,pressure,density of all particles.
 
 - The initial and final text files are created within same folder as Dam_break.exe executable file.
-- 
+
 ## Simulation results
+
+Here simulation results are obtained by using following parameters:
+- dp=0.01m
+- viscosity=laminar+sps
+- kinematic viscosity=1d-6
+- slip boundary condition
+- kernal=quintic spline
+- artificial sound speed coefficient=20.0
+- timestep size=4d-5
+  
+
 ![image002](https://github.com/user-attachments/assets/33421591-71ed-4689-8fef-aec6c1d1ceb2)
 
 
