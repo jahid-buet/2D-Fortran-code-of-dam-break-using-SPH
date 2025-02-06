@@ -69,6 +69,8 @@ Here simulation results are obtained by using following parameters:
 ![image002](https://github.com/user-attachments/assets/bd75efa1-0804-497a-848e-22f95399e1bd)
 
 
+![image002](https://github.com/user-attachments/assets/b97341b5-fd35-4414-9868-259a39f6d411)
+
 
 
 
