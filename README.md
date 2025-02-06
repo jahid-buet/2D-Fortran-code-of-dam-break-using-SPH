@@ -35,9 +35,9 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - part.f90: This module define derived data types of particles and its various component.
 
-- strain.f90:This module computes strain rate for fluid particles which is used in orginal viscosity formnulation(direct discretiztion of 1st and 2nd order derivatives using SPH function and then kgf matrix are used to improve the accuracy of viscosity formulation).
+- strain.f90:This module computes strain rate for fluid particles which is used in orginal viscosity formulation(direct discretiztion of 1st and 2nd order derivatives using SPH function and then kgf matrix are used to improve the accuracy of viscosity formulation).
 
-- var.f90: This module is used to compue density and mass of all particles in domain.
+- var.f90: This module is used to compute density and mass of all particles in domain.
 
 - vector.f90:This model contains different derived data types which is used by part.f90 module.
 
@@ -49,3 +49,13 @@ To modify the source code one has to recompile the source files in "Source" fold
 - After finished running  the simulation another  text file named coordinate_final.txt is created which contains the final position ,pressure,density of all particles.
 
 - The initial and final text files are created within same folder as Dam_break.exe executable file.
+- 
+##Simulation results
+
+![image_0s](https://github.com/user-attachments/assets/8ae4edaf-25e1-4c40-a095-827f35850212)
+
+
+
+
+
+
