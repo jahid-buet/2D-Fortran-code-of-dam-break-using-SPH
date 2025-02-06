@@ -50,10 +50,11 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - The initial and final text files are created within same folder as Dam_break.exe executable file.
 - 
-##Simulation results
+## Simulation results
 ![image002](https://github.com/user-attachments/assets/33421591-71ed-4689-8fef-aec6c1d1ceb2)
 
 
+![image002](https://github.com/user-attachments/assets/bd75efa1-0804-497a-848e-22f95399e1bd)
 
 
 
