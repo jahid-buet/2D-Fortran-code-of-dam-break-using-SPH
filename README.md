@@ -1,4 +1,4 @@
-# 2D-Fortran-code-of-dam-break-using-SPH
+# 2D Fortran code of dam break using SPH
 This is a simple 2d code of dam break using Smoothed particles hydrodynamics(SPH) numerical method written in Fortran.
 To run the simulation one has to run the executable file  "Dam_break.exe".
 if you find any bug or problem in running the simulation u are free to change the source code situated in "Source files" folder.
