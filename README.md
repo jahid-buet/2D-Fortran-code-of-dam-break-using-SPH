@@ -25,7 +25,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - Xsph.f90:This module computes Xsph to regularize the particles movement in SPH.it is not used in this simulation.
 
-- geometry.f90:This module  compute the required geometry(3 wall and 1 water column) according to the dimension are given in user interface.
+- geometry.f90:This module  compute the required geometry(3 wall and 1 water column) according to the dimensions  given by user.
 
 - initial.f90:This module is called from main source file before time initegration step and initialize variables(velocity,acceleration and pressure ) for all particles in domain.
 
