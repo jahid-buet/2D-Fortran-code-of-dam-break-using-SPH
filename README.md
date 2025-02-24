@@ -39,7 +39,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - var.f90: This module is used to compute density and mass of all particles in domain.
 
-- vector.f90:This model contains different derived data types which is used by part.f90 module.
+- vector.f90:This module contains different derived data types which is used by part.f90 module.
 
 - Dam_break.exe: This is an executable file which is created after compiling all source file in ifort compiler.
 
