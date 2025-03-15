@@ -16,7 +16,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 - ComPressGrad.f90:Compute accleration due to pressure gradient for all particles(boundary+fluid) in domain.
 
 - ComViscosity.f90: Compute acceleration due to vsicosity term for all fluid particles. Depending on  slip or no-slip boundary condition,viscosity for boundary particles are computed.
-- Three different formulation of viscosity is implemented.laminar+sps,artificial and orginal viscosity.User can choose any of one of the three viscosity formulation.
+  Three different formulation of viscosity is implemented.laminar+sps,artificial and orginal viscosity.User can choose any of one of the three viscosity formulation.
 
 - Dam_break.f90: Main source file from where all subroutines are called  and user interface for input parametrs are defined .Also time integration is implemented in this source file.
 
