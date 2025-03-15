@@ -16,6 +16,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 - ComPressGrad.f90:Compute accleration due to pressure gradient for all particles(boundary+fluid) in domain.
 
 - ComViscosity.f90: Compute acceleration due to vsicosity term for all fluid particles. Depending on  slip or no-slip boundary condition,viscosity for boundary particles are computed.
+- Three different formulation of viscosity is implemented.laminar+sps,artificial and orginal viscosity.User can choose any of one of the three viscosity formulation.
 
 - Dam_break.f90: Main source file from where all subroutines are called  and user interface for input parametrs are defined .Also time integration is implemented in this source file.
 
@@ -31,7 +32,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - kernal.f90: This module computes kernel function needs for SPH simulation
 
-- kgf_matrix.f90:This module computes 3 by 3 inverse matrix for kernal gradient free SPH formulation  and used in Orginal viscosity.
+- kgf_matrix.f90:This module computes 3 by 3 inverse matrix for kernal gradient free SPH formulation  and only used in Orginal viscosity formulation.
 
 - part.f90: This module define derived data types of particles and its various component.
 
