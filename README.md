@@ -52,7 +52,7 @@ To modify the source code one has to recompile the source files in "Source" fold
 
 - The initial and final text files are created within same folder as Dam_break.exe executable file.
 
-## Simulation results
+## Simulation results:
 
 Here simulation results are obtained by using following parameters:
 -
