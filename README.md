@@ -57,6 +57,8 @@ To modify the source code one has to recompile the source files in "Source" fold
 Here simulation results are obtained by using following parameters:
 - initial x-position of fluid column=0.0m
 - initial y-position of fluid column=0.0m
+- width of fluid column=0.3m
+- height of fluid column=0.8m
 - dp=0.01m
 - viscosity=laminar+sps
 - kinematic viscosity=1d-6
