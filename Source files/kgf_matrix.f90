@@ -254,7 +254,7 @@ allocate(a11(ntotal),a12(ntotal),a13(ntotal),a21(ntotal),a22(ntotal),a23(ntotal)
             
   
            p(i)%mat(1,1) = +det * (L(2,2)*L(3,3) - L(2,3)*L(3,2))
-           p(i)%mat(2,1) = -det * (L(2,1)*L(3,3) - L(2,3)*L(3,1))
+           p(i)%mat(2,1) = -det * (L(2,1)*L(3,2) - L(2,3)*L(3,3))
            p(i)%mat(3,1) = +det * (L(2,1)*L(3,2) - L(2,2)*L(3,1))
            p(i)%mat(1,2) = -det * (L(1,2)*L(3,3) - L(1,3)*L(3,2))
            p(i)%mat(2,2) = +det * (L(1,1)*L(3,3) - L(1,3)*L(3,1))
