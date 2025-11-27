@@ -55,17 +55,28 @@ To modify the source code one has to recompile the source files in "Source" fold
 ## Simulation results
 
 Here simulation results are obtained by using following parameters:
-- initial x-position of fluid column=0.0m
-- initial y-position of fluid column=0.0m
-- width of fluid column=0.3m
-- height of fluid column=0.8m
-- dp=0.01m
-- viscosity=laminar+sps
-- kinematic viscosity=1d-6
-- slip boundary condition
-- kernal=quintic spline
-- artificial sound speed coefficient=20.0
-- timestep size=4d-5
+initial x-position of fluid column=0.0m
+-
+initial y-position of fluid column=0.0m
+ - 
+ width of fluid column=0.3m
+ -
+ height of fluid column=0.8m
+ -
+particle spacing, dp=0.01m
+ -
+ viscosity=laminar+sps
+ -
+kinematic viscosity=1d-6
+ -
+ boundary condition=Slip
+ -
+kernal=quintic spline
+ -
+ artificial sound speed coefficient=20.0
+ -
+ timestep size=4d-5
+ -
   
 
 ![image002](https://github.com/user-attachments/assets/33421591-71ed-4689-8fef-aec6c1d1ceb2)
